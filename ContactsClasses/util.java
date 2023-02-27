@@ -26,6 +26,7 @@ public class util extends DefaultContacts{
         }
         return result;
     };
+
     //View all
     public static void allGuys() throws IOException {
         System.out.println("\n\n\n\n\n\n\n\n\n\n\n  Name                 | Phone Number \n-----------------------------------");
@@ -77,6 +78,7 @@ public class util extends DefaultContacts{
         System.out.println("Who?");
         return findGuy();
     }
+
     //Removing by name
     public static void deleteGuy() throws IOException {
         allGuys(); //Shows before the damage
