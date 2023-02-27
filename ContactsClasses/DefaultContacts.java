@@ -24,7 +24,7 @@ public class DefaultContacts extends ContactPath {
     }
 
     //Reset
-    public static List<String> reset(){
+    public static void reset(){
         contacts = new ArrayList<String>() {
             {
                 add("John Wick | 1234567890");
@@ -32,7 +32,7 @@ public class DefaultContacts extends ContactPath {
                 add("John Cena | 0192847263");
             }
         };
-        return contacts;
+
     };
 
 

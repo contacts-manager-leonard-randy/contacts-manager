@@ -10,8 +10,8 @@ import static java.nio.file.Files.readAllLines;
 import static java.nio.file.Files.write;
 
 public class ContactPath {
-    private static String contacts = "contacts.txt";
-    private static Path fileLocation = Paths.get(contacts);
+    private static final String contacts = "contacts.txt";
+    private static final Path fileLocation = Paths.get(contacts);
 
     public static Path contactLocation() throws IOException{
         Path directoryCreation = Files.createFile(fileLocation);
